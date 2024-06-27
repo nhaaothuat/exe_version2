@@ -23,6 +23,7 @@ const ContactForm = () => {
               </address>
             </div> */}
           <div ><iframe width="400" height="400" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=FPT%20University%20Quy%20Nhon%20AI%20C+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+       
           </div>
 
           <div className="rounded-lg bg-green p-8 shadow-lg lg:col-span-3 lg:p-12">
