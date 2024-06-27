@@ -8,6 +8,7 @@ const News = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
+    speed: 2000,
     autoplaySpeed: 2000,
     pauseOnHover: true,
     
@@ -16,10 +17,10 @@ const News = () => {
   return (
     <div className="bg-gray-100 md:px-10 px-4 py-12 font-[sans-serif] ">
       <div className="container mx-auto ">
-        <h2 className="text-3xl font-extrabold text-gray-800 mb-8 items-center justify-center flex">
+        <h2 className="text-3xl font-extrabold text-gray-800 mb-8 items-center justify-center flex" data-aos="zoom-in">
           Latest Blog Posts
         </h2>
-        <div className="" >
+        <div className=""data-aos="zoom-in" >
           <Slider {...settings} >
             <div className="bg-white rounded-lg overflow-hidden shadow-lg ">
               <img
