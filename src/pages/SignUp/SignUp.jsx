@@ -47,7 +47,7 @@ const SignUp = () => {
               <label className="ml-3 block text-sm">
                 I accept the{" "}
                 <a
-                  href="javascript:void(0);"
+                 
                   className="text-orange-400 font-semibold hover:underline ml-1"
                 >
                   Terms and Conditions

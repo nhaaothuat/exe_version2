@@ -1,12 +1,9 @@
-import { useEffect } from "react";
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+
+
 
 
 const Banner = () => {
-  useEffect(()=>{
-    Aos.init({duration:2000})
-  },[])
+ 
   return (
   
     <div className="  font-sans text-[#333] max-w-6xl max-md:max-w-md mx-auto">
@@ -16,10 +13,10 @@ const Banner = () => {
             <span className="rotate-90 inline-block mr-2 mb-2" >|</span> ALL IN
             ONE MEETING SCHEDULER
           </p>
-          <h2 className="md:text-5xl text-3xl font-extrabold mb-4 md:!leading-[55px]" data-aos="fade-right">
+          <h2 className="md:text-5xl text-3xl font-extrabold mb-4 md:!leading-[55px]" >
             Schedule meetings effortlessly
           </h2>
-          <p className="mt-4 text-base text-gray-500 leading-relaxed" data-aos="fade-right">
+          <p className="mt-4 text-base text-gray-500 leading-relaxed" >
             Embark on a gastronomic journey with our curated dishes, delivered
             promptly to your doorstep. Elevate your dining experience today.
           </p>
@@ -41,16 +38,17 @@ const Banner = () => {
               id="checkbox3"
               type="checkbox"
               className="hidden peer"
-              checked
+              
             />
            
           </div>
         </div>
-        <div className="md:h-[450px] p-2">
+        <div className="md:h-[450px] p-2  ">
           <img
             src="https://readymadeui.com/image-1.webp"
-            className="w-full h-full object-contain shadow-[0_2px_22px_-10px_rgba(93,96,127,0.2)]"
+            className="w-full h-full object-contain shadow-[0_2px_22px_-10px_rgba(93,96,127,0.2)] "
             alt="Dining Experience"
+            
           />
         </div>
       </div>

@@ -11,16 +11,35 @@ const News = () => {
     speed: 2000,
     autoplaySpeed: 2000,
     pauseOnHover: true,
-    
+    responsive: [
+      {
+        breakpoint: 1024, 
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 480, 
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   return (
     <div className="bg-gray-100 md:px-10 px-4 py-12 font-[sans-serif] ">
       <div className="container mx-auto ">
-        <h2 className="text-3xl font-extrabold text-gray-800 mb-8 items-center justify-center flex" data-aos="zoom-in">
+        <h2 className="text-3xl font-extrabold text-gray-800 mb-8 items-center justify-center flex" >
           Latest Blog Posts
         </h2>
-        <div className=""data-aos="zoom-in" >
+        <div className="" >
           <Slider {...settings} >
             <div className="bg-white rounded-lg overflow-hidden shadow-lg ">
               <img
@@ -57,7 +76,7 @@ const News = () => {
                   cillum dolore...
                 </p>
                 <a
-                  href="javascript:void(0);"
+                  
                   className="mt-4 inline-block text-blue-600 text-sm hover:underline"
                 >
                   Read More
@@ -80,7 +99,7 @@ const News = () => {
                   cillum dolore...
                 </p>
                 <a
-                  href="javascript:void(0);"
+                  
                   className="mt-4 inline-block text-blue-600 text-sm hover:underline"
                 >
                   Read More
@@ -103,7 +122,7 @@ const News = () => {
                   cillum dolore...
                 </p>
                 <a
-                  href="javascript:void(0);"
+                 
                   className="mt-4 inline-block text-blue-600 text-sm hover:underline"
                 >
                   Read More
@@ -126,7 +145,7 @@ const News = () => {
                   cillum dolore...
                 </p>
                 <a
-                  href="javascript:void(0);"
+                 
                   className="mt-4 inline-block text-blue-600 text-sm hover:underline"
                 >
                   Read More
